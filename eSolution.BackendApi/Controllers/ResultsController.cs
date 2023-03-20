@@ -30,5 +30,10 @@ namespace eSolution.BackendApi.Controllers
             result.CreatedDate = DateTime.Now;
             return _conveyResultsService.Create(result);
         }
+        [System.Web.Http.AcceptVerbs("GET", "HEAD", "OPTIONS")]
+        public string GetOne(string id)
+        {
+            return "Success";
+        }
     }
 }
