@@ -33,7 +33,7 @@ namespace eSolution.BackendApi.Controllers
         [System.Web.Http.AcceptVerbs("GET", "HEAD", "OPTIONS")]
         public string GetOne(string id)
         {
-            return "Success";
+            return "GetOne_Success";
         }
     }
 }
