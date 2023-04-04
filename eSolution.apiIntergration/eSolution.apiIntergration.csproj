@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -42,6 +45,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\ApiDriverResultClient.cs" />
+    <Compile Include="Services\BaseApiClient.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\eSolution.Utilities\eSolution.Utilities.csproj">
+      <Project>{8113712c-de75-4026-83db-89ca2241e498}</Project>
+      <Name>eSolution.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\eSolution.ViewModels\eSolution.ViewModels.csproj">
+      <Project>{c8d10285-040d-4e10-ab72-37f0e8e8e97e}</Project>
+      <Name>eSolution.ViewModels</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

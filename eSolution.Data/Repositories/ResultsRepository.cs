@@ -19,7 +19,8 @@ namespace eSolution.Data.Repositories
         }
         public IEnumerable<Results> GetResults(DateTime fromDate, DateTime toDate)
         {
-            return DbContext.ConveyResults.Where(x => x.CreatedDate >= fromDate && x.CreatedDate <= toDate);
+            return DbContext.ConveyResults.Where(x => x.CreatedDate >= fromDate && x.CreatedDate <= toDate)
+                .OrderByDescending(y=>y.ID);
         }
     }
 }

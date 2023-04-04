@@ -45,6 +45,8 @@
     <Compile Include="Models\ConveyResults\Results.cs" />
     <Compile Include="Models\Logins\LoginRequest.cs" />
     <Compile Include="Models\Logins\LoginResponse.cs" />
+    <Compile Include="Models\SocialInsurances\ApiResults.cs" />
+    <Compile Include="Models\SocialInsurances\DriverResult.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

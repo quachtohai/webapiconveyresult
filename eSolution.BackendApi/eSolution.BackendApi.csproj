@@ -184,6 +184,7 @@
     <Compile Include="App_Start\Startup.cs" />
     <Compile Include="App_Start\SwaggerConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\DriverResultsController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\ResultsController.cs" />
     <Compile Include="Global.asax.cs">
@@ -202,6 +203,10 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\eSolution.apiIntergration\eSolution.apiIntergration.csproj">
+      <Project>{3165AB56-D3E0-4C18-B725-0BE89C906C86}</Project>
+      <Name>eSolution.apiIntergration</Name>
+    </ProjectReference>
     <ProjectReference Include="..\eSolution.Data\eSolution.Data.csproj">
       <Project>{596DD432-BC48-4126-902A-7FB7383C463C}</Project>
       <Name>eSolution.Data</Name>
