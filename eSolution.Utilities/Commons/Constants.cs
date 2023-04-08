@@ -14,5 +14,6 @@ namespace eSolution.Utilities.Commons
         public static string USER_NAME = "UserName";
         public static string PASSWORD = "Password";
         public static string GUI_KET_QUA_LAI_XE = "api/hssk/gksk";
+       
     }
 }
