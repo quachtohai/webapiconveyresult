@@ -184,6 +184,7 @@
     <Compile Include="App_Start\Startup.cs" />
     <Compile Include="App_Start\SwaggerConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\BirthDeathController.cs" />
     <Compile Include="Controllers\DriverResultsController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\ResultsController.cs" />
