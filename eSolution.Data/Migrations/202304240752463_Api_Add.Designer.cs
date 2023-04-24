@@ -7,13 +7,13 @@ namespace eSolution.Data.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class First_Db : IMigrationMetadata
+    public sealed partial class Api_Add : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(First_Db));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(Api_Add));
         
         string IMigrationMetadata.Id
         {
-            get { return "202303080804413_First_Db"; }
+            get { return "202304240752463_Api_Add"; }
         }
         
         string IMigrationMetadata.Source

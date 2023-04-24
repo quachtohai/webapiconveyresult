@@ -1,4 +1,5 @@
 ﻿
+using eSolution.ViewModels.Models.Api;
 using eSolution.ViewModels.Models.ConveyResults;
 using System.Data.Entity;
 
@@ -15,6 +16,7 @@ namespace eSolution.Data
             return new eSolutionDbContext();
         }
         public DbSet<Results> ConveyResults { set; get; }
+        public DbSet<ApiResponseResults> ApiResponseResults { set; get; }
 
         protected override void OnModelCreating(DbModelBuilder builder)
         {

@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Api\ApiResponseResults.cs" />
     <Compile Include="Models\ConveyResults\Results.cs" />
     <Compile Include="Models\Logins\LoginRequest.cs" />
     <Compile Include="Models\Logins\LoginResponse.cs" />

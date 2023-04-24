@@ -62,12 +62,13 @@
     <Compile Include="Migrations\202303080749361_Result_Convey_Db.designer.cs">
       <DependentUpon>202303080749361_Result_Convey_Db.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202303080804413_First_Db.cs" />
-    <Compile Include="Migrations\202303080804413_First_Db.designer.cs">
-      <DependentUpon>202303080804413_First_Db.cs</DependentUpon>
+    <Compile Include="Migrations\202304240752463_Api_Add.cs" />
+    <Compile Include="Migrations\202304240752463_Api_Add.designer.cs">
+      <DependentUpon>202304240752463_Api_Add.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\ApiReponseResultsRepository.cs" />
     <Compile Include="Repositories\ResultsRepository.cs" />
     <Compile Include="eSolutionDbContext.cs" />
   </ItemGroup>
@@ -85,8 +86,8 @@
     <EmbeddedResource Include="Migrations\202303080749361_Result_Convey_Db.resx">
       <DependentUpon>202303080749361_Result_Convey_Db.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202303080804413_First_Db.resx">
-      <DependentUpon>202303080804413_First_Db.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202304240752463_Api_Add.resx">
+      <DependentUpon>202304240752463_Api_Add.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
